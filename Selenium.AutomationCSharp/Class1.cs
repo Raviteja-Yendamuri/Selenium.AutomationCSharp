@@ -20,6 +20,7 @@ namespace Selenium.AutomationCSharp
             driver.Navigate().GoToUrl("https://facebook.com");
             driver.Manage().Window.Maximize();
             //hello
+            driver.Manage().Window.Minimize();
 
         }
     }
